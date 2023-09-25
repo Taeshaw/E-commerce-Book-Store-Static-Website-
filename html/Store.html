@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourcerer of Books - All Products</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="fontsrel" href="../font/Oswald-Regular.ttf">
+</head>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../images/logo.png" width="140px" alt="Logo Here">
+                </div>
+
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../Home.html">Home</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="../html/blog.html">Blog</a></li>
+                        <li><a href="../html/research.html">Research</a></li>
+                        <li><a href="../html/contact us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <img src="../images\cart.png" alt="ForCartLOGO" width="30px" height="30px">
+                <img src="../images/menulogo.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+
+<!---------Products In The Store------------>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort By Price</option>
+                <option>Sort By Popularity</option>
+                <option>Sort By Rating</option>
+                <option>Sort By Offers</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="../images/abc (1).png">
+                <h4>Digital World</h4>
+                <p>$5.80</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/abc (2).png">
+                <h4>The Andromeda Boy</h4>
+                <p>$4.50</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/abc (3).png">
+                <h4>The Story of Medusa</h4>
+                <p>$7.40</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/abc (4).png">
+                <h4>The Big Secret Of Education</h4>
+                <p>$6.80</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (1).png">
+                <h4>First Christmas</h4>
+                <p>$5.80</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (2).png">
+                <h4>The First Love</h4>
+                <p>$4.50</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (3).png">
+                <h4>How To Manage Yor Energy</h4>
+                <p>$7.40</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (4).png">
+                <h4>True Beauty</h4>
+                <p>$6.80</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (5).png">
+                <h4>All This Little Things</h4>
+                <p>$5.80</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (6).png">
+                <h4>When I Look At You...</h4>
+                <p>$4.50</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (7).png">
+                <h4>About Last Night</h4>
+                <p>$7.40</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/xyz (8).png">
+                <h4>A Second Chance With Chase</h4>
+                <p>$6.80</p>
+            </div>
+        </div>
+
+        <div class="page-button">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#10139;</span>
+        </div>
+    </div>
+
+
+
+<!---------Footer Part Of The Website------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our App Which Is Available For Both <br>
+                        Androids And IOS Devices.</p>
+                    <div class="app-logo">
+                        <img src="../images/applogo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../images/logo.png">
+                    <p>Where everything you need to know is only an arm's length away!<br>
+                        Enjoy a new world inside a book</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Ask Queries</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------js for toggle menu------------>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourcerer of Books - Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="fontsrel" href="../font/Oswald-Regular.ttf">
+</head>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../images/logo.png" width="140px" alt="Logo Here">
+                </div>
+
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="../Home.html">Home</a></li>
+                        <li><a href="../html/Store.html">Store</a></li>
+                        <li><a href="../html/blog.html">Blog</a></li>
+                        <li><a href="../html/research.html">Research</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <img src="../images\cart.png" alt="ForCartLOGO" width="30px" height="30px">
+                <img src="../images/menulogo.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+
+<!---------Products In The Store------------>
+    <div class="small-container">
+        <h1>Contact Us</h1>
+        <p>
+            We'd be delighted to answer your questions and assist you in your endeavors.
+            <br> Please do not hesitate to contact us.
+        </p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send Your Request</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Ram Chettri">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="+9779818765433">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>E-mail</label>
+                            <input type="text" placeholder="ramchettri@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Query/Question">
+                        </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="10" placeholder="Your Message Here. . ."></textarea>
+                
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td>E-mail</td>
+                        <td>sourcererofbook007@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>+977981455367</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>New-Road, Kathmandu</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!---------Footer Part Of The Website------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our App Which Is Available For Both <br>
+                        Androids And IOS Devices.</p>
+                    <div class="app-logo">
+                        <img src="../images/applogo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../images/logo.png">
+                    <p>Where everything you need to know is only an arm's length away!<br>
+                        Enjoy a new world inside a book</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Ask Queries</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------js for toggle menu------------>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+</body>
+</html>
